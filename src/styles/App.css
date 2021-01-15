@@ -1,0 +1,36 @@
+body {
+    @apply bg-gray-200 bg-opacity-50 font-sans
+}
+
+.wrapper {
+    @apply max-w-xl bg-white m-auto mt-12 flex flex-col p-10
+}
+.top {
+    @apply flex items-center mb-4
+}
+.img {
+    @apply h-20
+}
+.title {
+    @apply text-5xl font-light text-gray-800
+}
+.form {
+   @apply flex items-center justify-between mb-4
+}
+
+.input {
+    @apply w-9/12 mr-6 p-4 pr-0 rounded-lg border border-solid border-gray-200 h-16
+}
+
+.button {
+    @apply bg-white border text-base font-light border-gray-200 border-solid
+    font-sans border-4 text-gray-400 text-4xl rounded-lg w-20 h-16 divide-opacity-0
+}
+
+.action {
+    @apply text-xl
+}
+
+.li {
+    @apply font-light py-5 border-t border-solid flex justify-between items-center
+}
